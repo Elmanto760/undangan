@@ -1,4 +1,3 @@
-// script.js
 var slideIndex = 0;
 showSlides();
 
