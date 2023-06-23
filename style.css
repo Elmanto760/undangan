@@ -1,46 +1,25 @@
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Styling header */
 header {
     background-color: #f2f2f2;
     padding: 20px;
-}
-
-/* Styling navigation */
-nav ul {
-    list-style-type: none;
-    background-color: #333;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-nav ul li a:hover {
-    background-color: #111;
-}
-
-/* Styling sections */
 section {
-    padding: 50px;
-    background-color: #fff;
+    margin: 20px;
 }
 
-/* Styling footer */
+h1, h2 {
+    color: #333;
+}
+
 footer {
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
